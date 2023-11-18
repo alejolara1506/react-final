@@ -1,0 +1,29 @@
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 38px;
+}
+
+.products{
+    border-radius: 30px;
+    max-width: 1140px;
+    padding-inline: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-block: 2rem;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: rgb(0, 66, 249);
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    }
+
