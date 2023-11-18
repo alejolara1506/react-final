@@ -8,12 +8,10 @@ import Cart from './components/Cart/Cart'
 import Checkout from './components/Checkout/Checkout'
 
 function App() {
-
   return (
     <CartProvider>
       <BrowserRouter>
       <NavBar/>
-
         <Routes>
           <Route exact path='/' element={<Home/>} />
           <Route exact path='/item/:id' element={<ItemDetailContainer />} />
@@ -22,7 +20,6 @@ function App() {
           <Route exact path='/cart' element={<Cart/>} />
           <Route exact path='/checkout' element={<Checkout/>} />
         </Routes>
-
       </BrowserRouter>
     </CartProvider>
   )
